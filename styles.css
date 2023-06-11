@@ -121,6 +121,12 @@ form input{
 .last:valid{
     border: 1px solid blue;
 }
+
+
+.last:focus{
+    border: 1px solid green;
+}
+
 .email{
     position: relative;
     top: -25px;
@@ -153,4 +159,13 @@ form input{
 
 .confirm:invalid{
     border: 1px solid red;
+}
+
+.pass:focus{
+    border: 1px solid green;
+}
+
+
+.confirm:focus{
+    border: 1px solid green;
 }
